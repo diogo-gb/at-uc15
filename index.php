@@ -13,7 +13,7 @@
 	<title>::: NetChute - Artigos esportivos. :::</title>
 
 	<script type="text/javascript" src="js/jquery-1.2.6.pack.js"></script>
-	<script type="text/javascript" src="ME-CONSERTE-COM-A-PASTA-CERTA/jquery.maskedinput-1.1.4.pack.js"/></script>
+	<script type="text/javascript" src="jquery.maskedinput-1.1.4.pack.js"/></script>
 
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -70,7 +70,7 @@
 							<input type="number" id="codigo" name="codigo" class="form-control" value="">
 							<small class="form-text text-muted"><em>Somente números.</em></small>
 						</div>
-						div class="col col-sm-10">
+						<div class="col col-sm-10">
 							<label class="form-label">Nome do cliente: </label>
 							<input type="text" id="nome" name="nome" class="form-control" value="">
 
@@ -90,7 +90,7 @@
 						</div>
 					</div>
 						<br>
-						button type="submit" class="btn btn-primary" Onclick="enviar(1)" >Cadastrar</button>
+						<button type="submit" class="btn btn-primary" Onclick="enviar(1)" >Cadastrar</button>
 
 						<br><br>
 
